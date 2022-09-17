@@ -5,7 +5,7 @@ let userData = [
     name: 'Mary Robins',
     position: 'Architect',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "/public/images/user_girl-1.jpg",
+    image: "../images/user_girl-1.jpg",
     imageMargin: -7,
     icon1: {
       icon: 'photo_camera',
@@ -25,7 +25,7 @@ let userData = [
     name: 'Joe Smith',
     position: 'Software Engineer',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "/public/images/user_male-1.jpg",
+    image: "../images/user_male-1.jpg",
     imageMargin: -.9,
     icon1: {
       icon: 'photo_camera',
@@ -45,7 +45,7 @@ let userData = [
     name: 'Liza Williams',
     position: 'Designer',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "/public/images/user_girl-3.jpg",
+    image: "../images/user_girl-3.jpg",
     imageMargin: -3.5,
     icon1: {
       icon: 'photo_camera',
@@ -65,7 +65,7 @@ let userData = [
     name: 'Robert Ford',
     position: 'Enterprenuer',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "/public/images/user_male-2.jpg",
+    image: "../images/user_male-2.jpg",
     imageMargin: -10,
     icon1: {
       icon: 'photo_camera',
@@ -85,7 +85,7 @@ let userData = [
     name: 'Pamela Johnson',
     position: 'Data Analyst',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "/public/images/user_girl-2.jpg",
+    image: "../images/user_girl-2.jpg",
     imageMargin: -1,
     icon1: {
       icon: 'photo_camera',
@@ -105,7 +105,7 @@ let userData = [
     name: 'Chad Wick',
     position: 'Programmer',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "/public/images/user_male-3.jpg",
+    image: "../images/user_male-3.jpg",
     imageMargin: -12,
     icon1: {
       icon: 'photo_camera',
