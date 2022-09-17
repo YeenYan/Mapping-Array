@@ -6,6 +6,7 @@ let userData = [
     position: 'Architect',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
     image: "./images/user_girl-1.jpg",
+    imageMargin: -7,
     icon1: {
       icon: 'photo_camera',
       num: 2252
@@ -21,97 +22,102 @@ let userData = [
     cta: 'Follow'
   },
   {
-    name: 'Mary Robins',
-    position: 'Architect',
+    name: 'Joe Smith',
+    position: 'Software Engineer',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "./images/user_girl-1.jpg",
+    image: "./images/user_male-1.jpg",
+    imageMargin: -.9,
     icon1: {
       icon: 'photo_camera',
-      num: 2252
+      num: 532
     },
     icon2: {
       icon: 'favorite',
-      num: 238
+      num: 1887
     },
     icon3: {
       icon: 'person',
-      num: 2252
+      num: 4000
     },
     cta: 'Follow'
   },
   {
-    name: 'Mary Robins',
-    position: 'Architect',
+    name: 'Liza Williams',
+    position: 'Designer',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "./images/user_girl-1.jpg",
+    image: "./images/user_girl-3.jpg",
+    imageMargin: -3.5,
     icon1: {
       icon: 'photo_camera',
-      num: 2252
+      num: "10k"
     },
     icon2: {
       icon: 'favorite',
-      num: 238
+      num: "23k"
     },
     icon3: {
       icon: 'person',
-      num: 2252
+      num: "100k"
     },
     cta: 'Follow'
   },
   {
-    name: 'Mary Robins',
-    position: 'Architect',
+    name: 'Robert Ford',
+    position: 'Enterprenuer',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "./images/user_girl-1.jpg",
+    image: "./images/user_male-2.jpg",
+    imageMargin: -10,
     icon1: {
       icon: 'photo_camera',
-      num: 2252
+      num: 523
     },
     icon2: {
       icon: 'favorite',
-      num: 238
+      num: "2k"
     },
     icon3: {
       icon: 'person',
-      num: 2252
+      num: "12k"
     },
     cta: 'Follow'
   },
   {
-    name: 'Mary Robins',
-    position: 'Architect',
+    name: 'Pamela Johnson',
+    position: 'Data Analyst',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "./images/user_girl-1.jpg",
+    image: "./images/user_girl-2.jpg",
+    imageMargin: -1,
     icon1: {
       icon: 'photo_camera',
-      num: 2252
+      num: "23k"
     },
     icon2: {
       icon: 'favorite',
-      num: 238
+      num: "435k"
     },
     icon3: {
       icon: 'person',
-      num: 2252
+      num: "800k"
     },
     cta: 'Follow'
   },
   {
-    name: 'Mary Robins',
-    position: 'Architect',
+    name: 'Chad Wick',
+    position: 'Programmer',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis molestiae vero accusantium culpa doloremque reiciendis!',
-    image: "./images/user_girl-1.jpg",
+    image: "./images/user_male-3.jpg",
+    imageMargin: -12,
     icon1: {
       icon: 'photo_camera',
-      num: 2252
+      num: 230
     },
     icon2: {
       icon: 'favorite',
-      num: 238
+      num: 5000
     },
     icon3: {
       icon: 'person',
-      num: 2252
+      num: 8000
     },
     cta: 'Follow'
   },
@@ -124,7 +130,7 @@ let details = userData.map(function (item) {
     '<div class="card">' +
 
     '<div class="image_wrapper">' +
-    '<img src=' + item.image + ' class="user_image">' +
+    '<img src=' + item.image + ' class="user_image"' + 'style="margin-left:' + item.imageMargin + 'rem;">' +
     '</div>' +
 
     '<div class="text-wrapper">' +
